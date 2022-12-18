@@ -29,8 +29,8 @@ if __name__ == '__main__':
     arr = map(int, input().split())
     arr = list(arr)
     max_value = max(arr)
-    s = 0
+    s = -99999
     for i in range(n):
-        if arr[i] < max_value:
+        if arr[i] < max_value and arr[i] > s:
             s = arr[i]
     print(s)
