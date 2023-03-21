@@ -25,11 +25,14 @@
 -------
 
 def kangaroo(x1, v1, x2, v2):
-        a = ((x2 - x1) / (v1 - v2))
-        if a > 0:
-                return 'YES'
+        if v1 == v2:
+                return "NO"
         else:
-                return 'NO'
+                time_to_meet = (x2 - x1) / (v1 - v2)
+                if time_to_meet >= 0 and time_to_meet.is_integer():
+                        return "YES"
+                else:
+                        return "NO"
 
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()
@@ -41,4 +44,3 @@ if __name__ == '__main__':
     
     result = kangaroo(x1, v1, x2, v2)
     print(result)
-
