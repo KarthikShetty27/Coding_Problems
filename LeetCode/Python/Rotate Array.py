@@ -23,6 +23,7 @@
 
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
-        n = len(nums)
-        nums[:] = nums[n-k:n+1] + nums[0:n-k]
-        print(nums)
+        k = k % len(nums)
+        nums.reverse()
+        nums[:k] = reversed(nums[:k])
+        nums[k:] = reversed(nums[k:])
