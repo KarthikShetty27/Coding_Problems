@@ -1,7 +1,7 @@
 # Question: Write a program (WAP) to find the common elements present in the given two strings.
 # Example-01:
 # Input: a = ["apple", "banana", "orange", "kiwi", "strawberry"]
-# Output: result = ""
+# Output: result = "Strawberry"
 
 # Code:
 def find_largest_string(string_list):
