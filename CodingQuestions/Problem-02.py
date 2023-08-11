@@ -1,4 +1,4 @@
-# Question: Write a program (WAP) to find the common elements present in the given two strings.
+# Question: Write a program (WAP) to find the largest occurrence of a substring in a list of string present.
 # Example-01:
 # Input: a = ["apple", "banana", "orange", "kiwi", "strawberry"]
 # Output: result = "Strawberry"
