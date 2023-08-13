@@ -22,6 +22,6 @@ def find_largest_two_number_pair(s):
 input_string = "254987"
 print("The largest two-number pair is:", find_largest_two_number_pair(input_string))
 
-input = ("Enter the string: ")
-a = "5268971"
-find_biggest_pair(a)
+# input = ("Enter the string: ")
+# a = "5268971"
+# find_biggest_pair(a)
