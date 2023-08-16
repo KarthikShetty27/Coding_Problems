@@ -13,7 +13,6 @@
 def find_Anagram(a, b):
     freq_a = {char: a.count(char) for char in set(a)}
     freq_b = {char: b.count(char) for char in set(b)}
-
     min_del = sum(abs(freq_a.get(char, 0) - freq_b.get(char, 0)) for char in set(a + b))
 
     return min_del
