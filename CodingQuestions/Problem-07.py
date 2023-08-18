@@ -3,7 +3,7 @@
 # the task is to check whether there exist two elements in Q[] whose sum is exactly z.
 
 # Example-01:
-# Input: arr[] = {0, -1, 2, -3, 1}, z= -2
+# Input: Q[] = {0, -1, 2, -3, 1}, z= -2
 # Output: Yes
 # Explanation:  If we calculate the sum of the output,1 + (-3) = -2
 
