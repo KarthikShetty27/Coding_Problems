@@ -26,4 +26,5 @@ def num2roman(num):
                 num -= i
     return roman
 
-num2roman(27)
+a = input()
+num2roman(a)
