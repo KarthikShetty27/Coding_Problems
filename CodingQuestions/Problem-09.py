@@ -10,7 +10,6 @@ class Node:
         self.left = None
         self.right = None
 
-
 # Inorder traversal
 def inorder(root):
     if root is not None:
