@@ -33,6 +33,7 @@ class Solution:
 
 # Product Except Self (pes)
 pes = Solution()
+# Input
 nums = [2, 9, 2, 7, 2]
 result = pes.productExceptSelf(nums)
 print(result)
